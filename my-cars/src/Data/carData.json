@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "model": "Toyota",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 2,
+      "model": "Honda",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 3,
+      "model": "Ford",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 4,
+      "model": "Chevrolet",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 5,
+      "model": "Nissan",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 6,
+      "model": "BMW",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 7,
+      "model": "Mercedes-Benz",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 8,
+      "model": "Audi",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 9,
+      "model": "Hyundai",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 10,
+      "model": "Kia",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 11,
+      "model": "Volkswagen",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 12,
+      "model": "Mazda",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 13,
+      "model": "Subaru",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 14,
+      "model": "Lexus",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 15,
+      "model": "Chrysler",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 16,
+      "model": "Jeep",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 17,
+      "model": "Tesla",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 18,
+      "model": "Land Rover",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 19,
+      "model": "Porsche",
+      "logo": "/assets/img/jaguar.png"
+    },
+    {
+      "id": 20,
+      "model": "Volvo",
+      "logo": "/assets/img/jaguar.png"
+    }
+  ]
+  

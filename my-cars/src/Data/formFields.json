@@ -1,0 +1,12 @@
+[
+    { "label": "Model", "key": "model", "readOnly": true },
+    { "label": "Location", "key": "location", "readOnly": false },
+    { "label": "Color", "key": "color", "readOnly": false },
+    { "label": "No of Owners", "key": "owners", "readOnly": false },
+    { "label": "Year of Manufacture", "key": "year", "readOnly": false },
+    { "label": "Transmission", "key": "transmission", "readOnly": false },
+    { "label": "Insurance Valid up to", "key": "insurance", "readOnly": false },
+    { "label": "External Fitments", "key": "externalFitments", "readOnly": false },
+    { "label": "Kilometers", "key": "kms", "readOnly": false }
+  ]
+  

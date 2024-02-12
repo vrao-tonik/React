@@ -1,0 +1,17 @@
+.car-grid {
+    margin: 16px;
+  }
+.car-item .card-img-top{
+    width:100px;
+}    
+.car-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+.show-more{
+    padding:3.4rem;
+}
