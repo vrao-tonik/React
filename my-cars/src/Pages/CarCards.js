@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../Styles/CarCards.css"; 
 import carData from "../Data/carData.json";
 import formFields from "../Data/formFields.json";
+import { useSubmissionContext } from '../helpers/SubmissionContext';
 
 const CarCards = () => {
   const [displayCount, setDisplayCount] = useState(10);
@@ -10,6 +11,8 @@ const CarCards = () => {
   const [showForm, setShowForm] = useState(false);
   const [submittedData, setSubmittedData] = useState([]);
   const [submissionCounter, setSubmissionCounter] = useState(1);
+
+  const { addSubmittedData } = useSubmissionContext();
 
   const handleCarItemClick = (car) => {
     setSelectedCar(car);
@@ -42,15 +45,13 @@ const CarCards = () => {
     });
     
     setSubmittedData((prevSubmittedData) => [...prevSubmittedData, formValues]);
-
+    addSubmittedData(formValues);
+    
   setSubmissionCounter(submissionCounter + 1);
     setFormData({});
     setShowForm(false);
   };
   
-  
-  
-
   return (
     <div className="car-grid">
       <div className="row">

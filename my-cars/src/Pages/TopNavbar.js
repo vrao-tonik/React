@@ -1,13 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Styles/TopNavbar.css";
 import menuData from "../Data/menu.json";
 
- const TopNavbar = () => {
+const TopNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
-      <a className="navbar-brand" href="/">
-        <img className="img-fluid logo" src="https://w7.pngwing.com/pngs/100/1/png-transparent-car-suv-silhouette.png" alt="logo"/>
-      </a>
+      <Link className="navbar-brand" to="/">
+        <img
+          className="img-fluid logo"
+          src="https://w7.pngwing.com/pngs/100/1/png-transparent-car-suv-silhouette.png"
+          alt="logo"
+        />
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -23,9 +28,9 @@ import menuData from "../Data/menu.json";
         <ul className="navbar-nav ml-auto">
           {menuData.map((item, index) => (
             <li className="nav-item font-weight-bold" key={index}>
-              <a className="nav-link" href={item.link}>
+              <Link className="nav-link" to={item.link}>
                 {item.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
