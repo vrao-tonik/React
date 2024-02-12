@@ -14,7 +14,7 @@ function App() {
           <div>
             <TopNavbar />
             <Routes>
-               <Route path="/" element={<CarCards />} />
+               <Route path="*" element={<CarCards />} />
               <Route path="/page2" element={<SubmittedDataPage />} />
               
             </Routes>
