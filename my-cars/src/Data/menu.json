@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "Services",
+      "link": "/Services"
+    },
+    {
+      "title": "Gallery",
+      "link": "/Gallery"
+    },
+    {
+      "title": "Contact Us",
+      "link": "/Contact"
+    }
+  ]
+  
