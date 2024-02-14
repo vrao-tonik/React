@@ -61,7 +61,7 @@ const CarCards = () => {
               className="card car-item shadow"
               onClick={() => handleCarItemClick(car)}
             >
-              <img src={car.logo} className="card-img-top" alt={car.model} />
+              <img src={process.env.PUBLIC_URL + car.logo} className="card-img-top" alt={car.model} />
               <div className="card-body">
                 <h5 className="card-title text-secondary">{car.model}</h5>
               </div>
